@@ -15,6 +15,7 @@
 		044C644925B72753002529DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044C644725B72753002529DE /* LaunchScreen.storyboard */; };
 		0496C0A826061FF20046D9A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496C0A726061FF20046D9A4 /* HomeViewController.swift */; };
 		0496C0AB260642760046D9A4 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 0496C0AA260642760046D9A4 /* sound */; };
+		0496C0AF260657F20046D9A4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496C0AE260657F20046D9A4 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		044C644A25B72753002529DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0496C0A726061FF20046D9A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0496C0AA260642760046D9A4 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		0496C0AE260657F20046D9A4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				044C643E25B72750002529DE /* SceneDelegate.swift */,
 				044C644025B72750002529DE /* ViewController.swift */,
 				044C644225B72750002529DE /* Main.storyboard */,
+				0496C0AE260657F20046D9A4 /* DetailsViewController.swift */,
 				0496C0A726061FF20046D9A4 /* HomeViewController.swift */,
 				044C644525B72753002529DE /* Assets.xcassets */,
 				044C644725B72753002529DE /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				044C643D25B72750002529DE /* AppDelegate.swift in Sources */,
 				044C643F25B72750002529DE /* SceneDelegate.swift in Sources */,
 				0496C0A826061FF20046D9A4 /* HomeViewController.swift in Sources */,
+				0496C0AF260657F20046D9A4 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
