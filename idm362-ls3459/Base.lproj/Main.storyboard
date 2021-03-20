@@ -177,7 +177,7 @@
         <!--Home-->
         <scene sceneID="S3a-jj-vud">
             <objects>
-                <viewController id="aZw-BK-42a" sceneMemberID="viewController">
+                <viewController id="aZw-BK-42a" customClass="HomeViewController" customModule="idm362_ls3459" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uET-Gq-HuC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
