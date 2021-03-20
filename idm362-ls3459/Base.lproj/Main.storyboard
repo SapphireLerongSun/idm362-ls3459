@@ -218,6 +218,52 @@
             </objects>
             <point key="canvasLocation" x="-479.19999999999999" y="-638.2308845577212"/>
         </scene>
+        <!--Details-->
+        <scene sceneID="tVx-ms-OCG">
+            <objects>
+                <viewController id="qNK-6i-Mf4" userLabel="Details" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BnE-XE-XHw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loving life is in store for you." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EQ-Fd-erN">
+                                <rect key="frame" x="79" y="356" width="217" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="h7f-hW-qaS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The weather is wonderful." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8M-dB-2Pc">
+                                <rect key="frame" x="89" y="401" width="197" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Art therapy" translatesAutoresizingMaskIntoConstraints="NO" id="ilQ-2A-1Cf">
+                                <rect key="frame" x="45" y="118" width="285" height="170"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hCY-4Q-aAC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ilQ-2A-1Cf" firstAttribute="leading" secondItem="hCY-4Q-aAC" secondAttribute="leading" constant="45" id="3dD-EI-YZd"/>
+                            <constraint firstItem="8EQ-Fd-erN" firstAttribute="centerX" secondItem="ilQ-2A-1Cf" secondAttribute="centerX" id="Lsg-zn-e5P"/>
+                            <constraint firstAttribute="bottom" secondItem="8EQ-Fd-erN" secondAttribute="bottom" constant="290" id="QqA-Up-cut"/>
+                            <constraint firstItem="ilQ-2A-1Cf" firstAttribute="top" secondItem="hCY-4Q-aAC" secondAttribute="top" constant="118" id="ScQ-7c-AeI"/>
+                            <constraint firstItem="hCY-4Q-aAC" firstAttribute="trailing" secondItem="ilQ-2A-1Cf" secondAttribute="trailing" constant="45" id="THb-am-d2q"/>
+                            <constraint firstItem="8EQ-Fd-erN" firstAttribute="top" secondItem="ilQ-2A-1Cf" secondAttribute="bottom" constant="68" id="b4d-9p-a35"/>
+                            <constraint firstItem="a8M-dB-2Pc" firstAttribute="top" secondItem="8EQ-Fd-erN" secondAttribute="bottom" constant="24" id="fRK-ia-mev"/>
+                            <constraint firstItem="8EQ-Fd-erN" firstAttribute="centerX" secondItem="a8M-dB-2Pc" secondAttribute="centerX" id="nYq-vB-lWX"/>
+                            <constraint firstItem="8EQ-Fd-erN" firstAttribute="leading" secondItem="hCY-4Q-aAC" secondAttribute="leading" constant="79" id="xos-fz-tKR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cv0-9i-9BB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="-638.2308845577212"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MVL-cS-xXS">
             <objects>
@@ -239,6 +285,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Art therapy" width="1024" height="575"/>
         <image name="fortunateCookie" width="470" height="331"/>
         <image name="homePage" width="24" height="26"/>
         <image name="setting" width="26" height="26"/>
