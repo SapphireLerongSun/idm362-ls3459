@@ -185,6 +185,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwi-j4-LAt">
                                 <rect key="frame" x="-48" y="106" width="471" height="331"/>
                                 <state key="normal" image="fortunateCookie"/>
+                                <connections>
+                                    <action selector="playStopCrack:" destination="aZw-BK-42a" eventType="touchUpInside" id="3OJ-4H-g9r"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUr-tn-Ype">
                                 <rect key="frame" x="75" y="459" width="244" height="47"/>

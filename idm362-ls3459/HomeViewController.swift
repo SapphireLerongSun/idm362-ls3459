@@ -1,21 +1,42 @@
 //
 //  HomeViewController.swift
 //  idm362-ls3459
-//
-//  Created by 孙太阳Sapphire on 2021/3/20.
-//
 
 import UIKit
+// Add Audio and Video library
+import AVFoundation
+
+var myAudioPlayerObj = AVAudioPlayer()
 
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    // Do after loading.
+        
+        let mySound = Bundle.main.path(forResource: "sound/Cookie crack", ofType: "mp3")
+        
+        do {
+            myAudioPlayerObj = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: mySound!))
+            myAudioPlayerObj.prepareToPlay()
+            print("Sound file loaded and prepped")
+        } catch{
+            print(error)
+        }
+        
+        
+    } // viewDidLoad
     
 
+    @IBAction func playStopCrack(_ sender: Any) {
+        print("playStopCrack called")
+        if(myAudioPlayerObj.isPlaying){
+            myAudioPlayerObj.stop()
+        }else{
+            myAudioPlayerObj.play()
+        }
+    }
     /*
     // MARK: - Navigation
 
@@ -26,4 +47,4 @@ class HomeViewController: UIViewController {
     }
     */
 
-}
+} // ViewController
